@@ -37,10 +37,11 @@ This is a 2-player mini-game party, where you and your friend can compete in 3 g
 1. Including "Vector", "Random", "string", "fstream" etc.
 They are used to store game status, generate random goals, or read input files etc.
 ----------------------------------------------------------------------------------
-**Compilation and execution instructions** 
-1. Run "make main" to compile the file.
-2. Run "./main" to start the game.
-3. When the text "Press enter to start the game" shows up, what you need to do is press the "enter button", so that the game will be started.
+**Compilation and execution instructions**
+1. Run "make clean" to clean the old file first.
+2. Run "make main" to compile the file.
+3. Run "./main" to start the game.
+4. When the text "Press enter to start the game" shows up, what you need to do is press the "enter button", so that the game will be started.
 
 **Guideline of Mini Games** 
 1. Number Monster: in this game there will be three monsters, which are number based, generated and you can only type number 1 - 9 only, once you match the monster's number, the monster will be elinminated. Caution!!! The number of those monster will be changed in different times. 
